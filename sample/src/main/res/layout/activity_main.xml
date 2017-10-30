@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.massivedisaster.sample.MainActivity">
+
+    <com.massivedisaster.widget.ArcToolbarView
+        android:id="@+id/topArc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/arc_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary" />
+
+    <com.massivedisaster.widget.ArcToolbarView
+        android:id="@+id/bottomArc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/arc_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:rotation="180" />
+
+    <FrameLayout
+        android:id="@+id/txtLongtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottomArc"
+        android:layout_below="@+id/topArc">
+
+        <include layout="@layout/content_arc_toolbar_view" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>
