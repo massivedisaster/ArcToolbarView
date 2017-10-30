@@ -21,18 +21,5 @@ class ArcToolbarViewActivity : AppCompatActivity() {
 
         arcToolbar.setAppBarLayout(appbar)
     }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.menu_arc_toolbar_view, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.action_settings ->
-                return true
-            else -> super.onOptionsItemSelected(item)
-        }
-    }
 }
 
