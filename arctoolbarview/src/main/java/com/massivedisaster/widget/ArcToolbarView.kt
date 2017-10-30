@@ -59,4 +59,9 @@ class ArcToolbarView(context: Context, set: AttributeSet?) : FrameLayout(context
 
         invalidate()
     }
+
+    fun setArcColor(color: Int) {
+        ovalPaint.color = color
+        invalidate()
+    }
 }
