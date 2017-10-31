@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="ArcToolbarView">
+        <attr name="arcBoundary" format="dimension" />
+        <attr name="arcHeight" format="dimension" />
+        <attr name="arcColor" format="color" />
+    </declare-styleable>
+</resources>
