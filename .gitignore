@@ -38,9 +38,15 @@ captures/
 
 # Intellij
 *.iml
-.idea/
-.idea/workspace.xml
-.idea/libraries
+
+## Directory-based project format:
+.idea/*
+
+# Track copyright configuration
+!.idea/copyright
+.idea/copyright/*
+!.idea/copyright/ADAL_MIT_LICENSE.xml
+!.idea/copyright/profiles_settings.xml
 
 # Keystore files
 *.jks
