@@ -2,6 +2,10 @@
 
 A Arc view for the android Toolbar.
 
+<div align="center">
+  <img src="art/sample.gif" />
+</div>
+
 ### Download
 
 ### Usage
