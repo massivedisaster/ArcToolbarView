@@ -1,6 +1,6 @@
 # ArcToolbarView
 
-A Arc view for the android Toolbar.
+An Arc view for the android Toolbar or anywere.
 
 <div align="center">
   <img src="art/sample.gif" />
@@ -10,7 +10,7 @@ A Arc view for the android Toolbar.
 
 ### Usage
 
-Declare your Toolbar with ArcToolbarView.
+1. Declare your `Toolbar` with `ArcToolbarView`.
 
 ```xml
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -57,7 +57,7 @@ Declare your Toolbar with ArcToolbarView.
 </android.support.design.widget.CoordinatorLayout>
 ```
 
-Set the AppBarLayout to ArcToolbarView.
+2. Set the `AppBarLayout` to `ArcToolbarView`.
 
 ```java
 class ArcToolbarViewActivity : AppCompatActivity() {
