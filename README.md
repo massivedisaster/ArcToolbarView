@@ -8,6 +8,14 @@ An Arc view for the android Toolbar or anywere.
 
 ### Download
 
+Gradle:
+
+```gradle
+dependencies {
+  implementation 'com.massivedisaster.widget:arctoolbarview:0.0.1'
+}
+```
+
 ### Usage
 
 1. Declare your `Toolbar` with `ArcToolbarView`.
