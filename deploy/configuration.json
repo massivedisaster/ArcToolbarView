@@ -1,0 +1,10 @@
+{
+  "basePath": "../",
+  "version": "0.0.1",
+  "extraTasks": [
+    "updateReadme"
+  ],
+  "modules": [
+    "arctoolbarview"
+  ]
+}
