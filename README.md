@@ -1,6 +1,6 @@
 # ArcToolbarView
 
-An Arc view for the android Toolbar or anywere.
+An Arc view for the android Toolbar or anywhere.
 
 <div align="center">
   <img src="art/sample.gif" />
