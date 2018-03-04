@@ -45,7 +45,7 @@ captures/
 # Track copyright configuration
 !.idea/copyright
 .idea/copyright/*
-!.idea/copyright/ADAL_MIT_LICENSE.xml
+!.idea/copyright/ArcToolbarView_MIT_License.xml
 !.idea/copyright/profiles_settings.xml
 
 # Keystore files
