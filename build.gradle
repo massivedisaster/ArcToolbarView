@@ -1,7 +1,7 @@
 /*
- * ArcToolbarView - A set of Android libraries to help speed up Android development.
+ * ArcToolbarView - An Arc view for the android Toolbar or anywhere.
  *
- * Copyright (c) 2017 ArcToolbarView
+ * Copyright (c) 2018 ArcToolbarView
  *
  * Permission is hereby granted, free of charge, to any person obtaining
  * a copy of this software and associated documentation files (the
@@ -32,7 +32,7 @@ ext {
     websiteBase = 'https://github.com/massivedisaster/ArcToolbarView'
     licensesBase = ['MIT']
     packageBase = 'com.massivedisaster'
-    adalModuleBase = packageBase + '.widget'
+    moduleBase = packageBase + '.widget'
     repoNameBase = "widget"
     isLibrary = true
     libraryVersionCode = 1
