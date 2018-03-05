@@ -30,10 +30,10 @@ import com.massivedisaster.widget.ArcToolbarView
 
 fun ArcToolbarView.setAppBarLayout(appbar: AppBarLayout) {
     appbar.addOnOffsetChangedListener(object : AppBarLayout.OnOffsetChangedListener {
-        internal var scrollRange = -1f
+        internal var scrollRange = -1F
 
         override fun onOffsetChanged(appBarLayout: AppBarLayout, verticalOffset: Int) {
-            if (scrollRange == -1f) {
+            if (scrollRange == -1F) {
                 scrollRange = appBarLayout.totalScrollRange.toFloat()
             }
 
