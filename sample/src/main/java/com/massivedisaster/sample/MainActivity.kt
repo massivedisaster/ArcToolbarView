@@ -40,10 +40,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var arcHeight = resources.getDimensionPixelSize(R.dimen.arc_height)
+        val arcHeight = resources.getDimensionPixelSize(R.dimen.arc_height)
         val displayMetrics = DisplayMetrics()
         windowManager.defaultDisplay.getMetrics(displayMetrics)
-        var halfScreenHeight = (displayMetrics.heightPixels / 2) - arcHeight
+        val halfScreenHeight = (displayMetrics.heightPixels / 2) - arcHeight
 
         val valueAnimator = ValueAnimator.ofInt(halfScreenHeight, arcHeight)
 
@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
             bottomArc.layoutParams = bottomArcParams
         }
 
-        valueAnimator.interpolator = AccelerateInterpolator(0.5f)
+        valueAnimator.interpolator = AccelerateInterpolator(0.5F)
         valueAnimator.duration = animationDuration
 
         valueAnimator.start()
