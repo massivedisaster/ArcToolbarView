@@ -61,11 +61,8 @@ class ArcToolbarView @JvmOverloads constructor(context: Context, attrs: Attribut
 
         context.theme.resolveAttribute(android.R.attr.windowBackground, windowBackground, true)
         return if (windowBackground.type >= TypedValue.TYPE_FIRST_COLOR_INT
-                && windowBackground.type <= TypedValue.TYPE_LAST_COLOR_INT) {
-            windowBackground.data
-        } else {
-            defaultColor
-        }
+                && windowBackground.type <= TypedValue.TYPE_LAST_COLOR_INT)
+            windowBackground.data else defaultColor
     }
 
     private fun parseAttributes(attrs: AttributeSet) {
