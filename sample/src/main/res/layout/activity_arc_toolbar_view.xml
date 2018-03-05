@@ -44,7 +44,7 @@
             android:fitsSystemWindows="true"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Headline"
-            app:expandedTitleMarginBottom="50dp"
+            app:expandedTitleMarginBottom="@dimen/arc_height"
             app:toolbarId="@+id/toolbar">
 
             <com.massivedisaster.widget.ArcToolbarView
